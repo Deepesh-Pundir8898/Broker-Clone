@@ -1,0 +1,24 @@
+@import "../../responsive.scss";
+
+body{
+    position: relative;
+}
+.layout{
+    // position: absolute;
+    width: 100%;
+    max-width: 100%;
+   
+    
+    // @include lg{
+    //     background-color: aqua;
+    //     background-image: none;
+    // }
+    // @include md{
+    //     background-color: green;
+    //     background-image: none;
+    // }
+    // @include sm{
+    //     background-color: red;
+    //     background-image: none;
+    // }
+}
