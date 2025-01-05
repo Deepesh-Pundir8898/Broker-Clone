@@ -23,6 +23,9 @@ const SearchBar = () => {
         navigate(`/listPage?type=${query.type}&location=${query.location}`);
         // navigate(`/listPage`);
     };
+    const switchType=(type)=>{
+        setQuery({...query,type:type})
+    }
 
   return (
     <div className='searchBar'>
