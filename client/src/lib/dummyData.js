@@ -92,7 +92,7 @@ export const listData = [
   
   export const singlePostData = {
     id: 1,
-    title: "Beautiful Apartment",
+    title: "Surakshaa Greens, ECIL",
     price: 1200,
     images: [
       "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -102,16 +102,21 @@ export const listData = [
     ],
     bedRooms: 2,
     bathroom: 1,
-    size: 861,
+    area: "1636 - 3150",
     latitude: 51.5074,
     longitude: -0.1278,
-    city: "London",
-    address: "1234 Broadway St",
+    propertySize:183 - 250,
+    propertyStatus:"for sale",
+    city: "Hyderabad",
+    completeAddress: "ECIL Junction, Kushaiguda, Ward 3 Cherlapally, Greater Hyderabad Municipal Corporation East Zone, Hyderabad, Kapra mandal, Medchal–Malkajgiri, Telangana, 500062, India",
+    address:"Ghatkesar, Ankushapur, East Hyderabad, Hyderabad",
+    state:"Telangana",
+    country:"India",
     school: "250m away",
     bus: "100m away",
     restaurant: "50m away",
     description:
-      "Future alike hill pull picture swim magic chain seed engineer nest outer raise bound easy poetry gain loud weigh me recognize farmer bare danger. actually put square leg vessels earth engine matter key cup indeed body film century shut place environment were stage vertical roof bottom lady function breeze darkness beside tin view local breathe carbon swam declared magnet escape has from pile apart route coffee storm someone hold space use ahead sheep jungle closely natural attached part top grain your grade trade corn salmon trouble new bend most teacher range anybody every seat fifteen eventually",
+      "Surakshaa Greens, ECIL is an HMDA approved open plots venture located at Kundanpally Village, Keesara Mandal, ECIL Medchal-Malkajgiri. The project is very close to the outer ring road Exit Number 8, Keesara Exit with TS Rera approval. Strategically positioned near the outer ring road Exit Number 9, this HMDA and TS Rera approved project. Situated beside the existing HMDA authority approved layout offers more than just a location; it embodies the epitome of luxurious living.The project is 6 Kms from ECIL X road and 3 Kms from ORR Exit no.8 offers luxury living and high growth prospects.",
   };
   
   export const userData = {

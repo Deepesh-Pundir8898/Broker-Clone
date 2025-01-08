@@ -20,6 +20,10 @@ function App() {
         element:<ListPage />
       },
       {
+        path:'/property/:id',
+        element:<SinglePage />
+      },
+      {
         path:'/forRent',
         element:<ForRent />
       },
