@@ -4,6 +4,7 @@ import logo from "../../../public/Untitled-127-x-40-px.png"
 import { CgProfile } from "react-icons/cg";
 import { FaAngleDown } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 const Navbar2 = () => {
   const [open , setOpen] = useState(false);
@@ -21,6 +22,7 @@ const Navbar2 = () => {
             <li><a href="">POST YOUR REQUIREMENT</a></li>
             <li><a href="">OTHERS <FaAngleDown /></a></li>
             <li><a href="">PROPERTIES <FaAngleDown /></a></li>
+          
           </ul>  
         </div>
         <div className='left'>
@@ -28,13 +30,13 @@ const Navbar2 = () => {
         </div>
         <div className='right'>
           <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">FOR SALE</a></li>
-            <li><a href="">FOR RENT</a></li>
-            <li><a href="">POST YOUR REQUIREMENT</a></li>
-            <li><a href="">OTHERS <FaAngleDown /></a></li>
-            <li><a href="">PROPERTIES <FaAngleDown /></a></li>
-            <a href="" className='profile'><CgProfile /></a>
+            <li><Link to={'./'}>Home</Link></li>
+            <li><Link to={'./forSale'}>FOR SALE</Link></li>
+            <li><Link to={'./forRent'}>FOR RENT</Link></li>
+            <li><Link to={'./requirements'}>POST YOUR REQUIREMENT</Link></li>
+            <li><Link to={'./listPage'}>OTHERS <FaAngleDown /></Link></li>
+            <li><Link to={'./properties'}>PROPERTIES <FaAngleDown /></Link></li>
+            <li><Link to={'./profile'}><CgProfile /></Link></li>
             <li>
               <button>CREATE A LISTING</button>
             </li>

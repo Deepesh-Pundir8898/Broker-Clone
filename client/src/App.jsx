@@ -4,6 +4,7 @@ import ForRent from './routes/ForRent/ForRent'
 import ListPage from './routes/listPage/ListPage'
 import Layout from './routes/Layout/Layout'
 import SinglePage from './routes/singlePage/SinglePage'
+import Profile from "./routes/ProfilePage/Profile"
 
 
 function App() {
@@ -30,6 +31,10 @@ function App() {
       {
         path:'/:id',
         element:<SinglePage />
+      },
+      {
+        path:'/profile',
+        element:<Profile />
       }
     ]
     },  

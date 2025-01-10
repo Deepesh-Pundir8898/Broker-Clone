@@ -44,3 +44,246 @@
     }
 
 }
+.featuredListingContainer{
+    margin: 5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    .listTitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        h1{
+            font-size: 2.2rem;
+            font-weight: 300;
+        }
+        p{
+            color: #828282;
+        }
+    }
+    .allList{
+        max-width: 90%;
+    }
+}
+.propertiesContainer{
+    background-color: white;
+    padding: 2rem;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+    >div{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        max-width: 950px;
+    }
+   
+    .appartmentSection{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        .content{
+            display: flex;
+            flex-direction: column;
+            gap:2rem;
+            h1{
+                font-weight: 300;
+            }
+            p{
+                font-weight: 300;
+                line-height: 2rem;
+            }
+        }
+        .appartment{
+            position: relative;
+            background-image:  url("../../../public/flat-to-rent-hyderabad.jpg");
+            min-height: 50vh;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            .img-opacity{
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                background-color: #729dbe;
+                opacity: 0.7;
+                mix-blend-mode: multiply;
+                transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+                z-index: 10;
+                transition: all 0.2s linear;
+            }
+            
+
+            .top{
+                font-weight: 100;
+                h2{
+                    font-weight: 300;
+                }
+            }
+            .bottom{
+                font-weight: 300;
+                display: flex;
+                justify-content: space-between;
+                
+            }
+            
+        }
+        .appartment:hover .img-opacity{
+            z-index: -1;
+        }
+    }
+    .openPlotsSection{
+        position: relative;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem;
+        cursor: pointer;
+        border-radius: 5px;
+        background-image: url("../../../public/WhatsApp-Image-2024-09-04-at-2.44.35-PM-780x780-1.jpeg");
+        color: white;
+        .img-opacity{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background-color: #729dbe;
+            opacity: 0.7;
+            mix-blend-mode: multiply;
+            transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+            z-index: 10;
+            transition: all 0.2s linear;
+        }
+        .top{
+            font-weight: 100;
+            h2{
+                font-weight: 300;
+            }
+        }
+        .bottom{
+            font-weight: 300;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .openPlotsSection:hover .img-opacity{
+        z-index: -1;
+    }
+}
+.exploreCitiesContainer{
+    max-width: 90%;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-bottom: 5rem;
+    .citiesTitle{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-weight: 400;
+    }
+    .hyderabad{
+        background-image: url("../../../public/licensed-image-4.jpeg");
+    }
+    .delhi{
+        background-image: url("../../../public/inaugurated-inspection-commissioner-wednesday-inauguration-intimated-arrangements_4e89d13c-ab54-11e6-b4b4-3ed39deda4e7.jpg.avif");
+    }
+    .bangalore{
+        background-image: url("../../../public/licensed-image.jpeg");
+    }
+    .mumbai{
+        background-image: url("../../../public/licensed-image-5.jpeg");
+    }
+    .cities{
+        color: white;
+        width: 30%;
+        height: 100%;
+        position: relative;
+        border-radius: 5px;
+        overflow: hidden;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        // color: white;
+        .img-opacity{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background-color: #729dbe;
+            opacity: 0.7;
+            mix-blend-mode: multiply;
+            transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+            z-index: 10;
+            transition: all 0.2s linear;
+        }
+        .top{
+            font-weight: 100;
+            h2{
+                font-weight: 300;
+            }
+        }
+        .bottom{
+            font-weight: 300;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .cities:hover .img-opacity{
+        z-index: -1;
+    }
+}
+.descriptionContainer{
+    max-width: 1100px;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    line-height: 2rem;
+    h1{
+        font-weight: 400;
+    }
+    ul>li{
+        font-weight: 300;
+    }
+}
+.testimonialsContainer{
+    max-width: 1100px;
+    margin: 5rem auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    .testimonial{
+        background-color: #edf9ff;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        >svg{
+            font-size: 2rem;
+        }
+        p{
+            line-height: 1.5rem;
+            font-weight: 300;
+        }
+    }
+}
